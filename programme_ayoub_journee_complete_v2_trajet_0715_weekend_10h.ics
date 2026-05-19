@@ -1,0 +1,358 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//M365 Copilot//Programme Ayoub Journee Complete V2//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Programme Ayoub - Journée Complète V2
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VEVENT
+UID:444c7f6d-a6e4-4210-9d6d-6a5184ae57a7@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Réveil et routine matinale
+DTSTART;TZID=Europe/Paris:20260518T063000
+DTEND;TZID=Europe/Paris:20260518T065500
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20260816T215959Z
+DESCRIPTION:Hydratation\, toilette\, préparation rapide. Objectif : commencer la journée sans précipitation.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Réveil et routine matinale
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6761e78b-8d55-4270-b2e9-e4ceed2d77fe@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Petit-déjeuner
+DTSTART;TZID=Europe/Paris:20260518T065500
+DTEND;TZID=Europe/Paris:20260518T071500
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20260816T215959Z
+DESCRIPTION:Petit-déjeuner orienté énergie : protéines + glucides. Exemple : œufs/skyr + pain complet/avoine + fruit.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Petit-déjeuner
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2bc91e4d-20f9-42ac-ba77-35df2f4d3d3a@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Trajet aller
+DTSTART;TZID=Europe/Paris:20260518T071500
+DTEND;TZID=Europe/Paris:20260518T080000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20260816T215959Z
+DESCRIPTION:Trajet vers le travail. Option utile : écouter anglais professionnel ou podcast léger.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Trajet aller
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0e9936c6-c486-4247-83b6-418bcbebe442@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Journée professionnelle
+DTSTART;TZID=Europe/Paris:20260518T080000
+DTEND;TZID=Europe/Paris:20260518T173000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20260816T215959Z
+DESCRIPTION:Bloc travail. Priorité : efficacité\, concentration\, qualité professionnelle.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Journée professionnelle
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3facb9ff-1456-438e-a56c-641d0598c5e9@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Trajet retour
+DTSTART;TZID=Europe/Paris:20260518T173000
+DTEND;TZID=Europe/Paris:20260518T181500
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20260816T215959Z
+DESCRIPTION:Retour du travail. Transition et récupération mentale.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Trajet retour
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:059f3167-a8c8-4a4b-b9b2-1378ca2bbb96@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Musculation - Push + mollets
+DTSTART;TZID=Europe/Paris:20260518T183000
+DTEND;TZID=Europe/Paris:20260518T201500
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20260816T215959Z
+DESCRIPTION:Objectif : haut du corps + rappel mollets.\n1h45 : échauffement 10 min\; développé couché 4x6-10\; développé incliné 3x8-12\; écartés 3x12-15\; développé épaules 3x6-10\; élévations latérales 4x12-20\; triceps 4x10-15\; MOLLETS debout lourd 5x8-12 + mollets assis 4x12-20. Amplitude complète.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Musculation - Push + mollets
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:25c87246-4427-4c2a-a863-8ac34d31ece2@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Musculation - Pull + avant-bras
+DTSTART;TZID=Europe/Paris:20260518T183000
+DTEND;TZID=Europe/Paris:20260518T201500
+RRULE:FREQ=WEEKLY;BYDAY=TU;UNTIL=20260816T215959Z
+DESCRIPTION:Objectif : dos\, arrière épaules\, biceps + avant-bras.\n1h45 : échauffement 10 min\; traction/tirage vertical 4x6-12\; rowing 4x8-12\; tirage horizontal 3x10-12\; face pull 4x12-20\; curl biceps 5 séries\; AVANT-BRAS : reverse curl 4x10-15 + wrist curl 3x15-20 + dead hang 3 séries max. Grip fort\, contrôle.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Musculation - Pull + avant-bras
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb72793d-bd03-4904-9a08-98df1a64a114@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Musculation - Jambes volume + mollets
+DTSTART;TZID=Europe/Paris:20260518T183000
+DTEND;TZID=Europe/Paris:20260518T201500
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20260816T215959Z
+DESCRIPTION:Objectif prioritaire : jambes et volume.\n1h45 : échauffement hanches/genoux/chevilles 12 min\; squat ou presse 4x6-10\; soulevé de terre roumain 4x8-12\; fentes/split squat 3x10 par jambe\; leg extension 3x12-15\; leg curl 3x12-15\; MOLLETS debout 5x8-12 + mollets assis 4x15-25.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Musculation - Jambes volume + mollets
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f9b75d07-8b16-46b1-a5c2-3090af7dfe50@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Musculation - Haut du corps + avant-bras
+DTSTART;TZID=Europe/Paris:20260518T183000
+DTEND;TZID=Europe/Paris:20260518T201500
+RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20260816T215959Z
+DESCRIPTION:Objectif : volume haut du corps + rappel avant-bras.\n1h45 : développé incliné 4x8-12\; tirage vertical 4x8-12\; rowing 4x10-12\; épaules latérales 4x15-20\; bras superset biceps/triceps 4 séries\; AVANT-BRAS : farmer walk 4x30-45 sec + wrist extension 3x15-20 + pronation/supination 3x12-15\; abdos.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Musculation - Haut du corps + avant-bras
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:df48c089-689a-4bc8-9c5f-936c7876c542@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Musculation - Jambes posterior chain + mollets
+DTSTART;TZID=Europe/Paris:20260518T183000
+DTEND;TZID=Europe/Paris:20260518T201500
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20260816T215959Z
+DESCRIPTION:Objectif prioritaire : ischios\, fessiers\, mollets\, core.\n1h45 : échauffement 10 min\; hip thrust 4x8-12\; soulevé de terre roumain 4x8-12\; presse pieds hauts ou hack squat 3x10-12\; leg curl 4x10-15\; mollets assis 5x12-20 + mollets debout 4x10-15\; abdos 10 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Musculation - Jambes posterior chain + mollets
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f9082432-dc80-49e4-95f0-a9733c7ad3a5@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Récupération et dîner
+DTSTART;TZID=Europe/Paris:20260518T201500
+DTEND;TZID=Europe/Paris:20260518T205000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20260816T215959Z
+DESCRIPTION:Douche\, dîner et récupération. Objectif volume : repas riche en protéines + glucides.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Récupération et dîner
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c9047c3a-2b6b-4c86-a9c2-f247dad06915@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Développement personnel et compétences
+DTSTART;TZID=Europe/Paris:20260518T205000
+DTEND;TZID=Europe/Paris:20260518T213000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20260816T215959Z
+DESCRIPTION:Rotation : lundi mémoire\, mardi anglais\, mercredi OPC/MS Project\, jeudi Excel/génie civil\, vendredi bilan professionnel.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Développement personnel et compétences
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3e01f7c-6204-43de-a02e-4ddcb6ed8a75@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Temps personnel
+DTSTART;TZID=Europe/Paris:20260518T213000
+DTEND;TZID=Europe/Paris:20260518T220000
+RRULE:FREQ=WEEKLY;BYDAY=MO,TU,WE,TH,FR;UNTIL=20260816T215959Z
+DESCRIPTION:Temps libre\, transition et pause avant la soirée.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Temps personnel
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eeb00f4d-6f1a-4d24-913d-1ef835a3ea4b@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Loisir personnel
+DTSTART;TZID=Europe/Paris:20260518T220000
+DTEND;TZID=Europe/Paris:20260519T000000
+RRULE:FREQ=DAILY;UNTIL=20260816T215959Z
+DESCRIPTION:Temps de loisir encadré. Fin recommandée à 00h00.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Loisir personnel
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4fcc4b6e-bb08-4ee9-bc49-646e00c81996@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Routine sommeil
+DTSTART;TZID=Europe/Paris:20260519T000000
+DTEND;TZID=Europe/Paris:20260519T001500
+RRULE:FREQ=DAILY;UNTIL=20260816T215959Z
+DESCRIPTION:Routine courte : hygiène\, téléphone à distance\, respiration\, coucher.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Routine sommeil
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8f76dc81-d743-4d15-bca4-3403e35b0345@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Samedi - réveil et routine matinale
+DTSTART;TZID=Europe/Paris:20260523T100000
+DTEND;TZID=Europe/Paris:20260523T103000
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20260816T215959Z
+DESCRIPTION:Réveil à 10h00\, hydratation\, toilette\, petit-déjeuner léger.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Samedi - réveil et routine matinale
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2185deb3-6e9a-4601-b53e-ac2fbbd2ae13@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Samedi - développement professionnel
+DTSTART;TZID=Europe/Paris:20260523T104500
+DTEND;TZID=Europe/Paris:20260523T120000
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20260816T215959Z
+DESCRIPTION:Bloc profond : OPC\, MS Project\, anglais professionnel\, CV\, LinkedIn ou candidatures.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Samedi - développement professionnel
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff3ce815-ee91-434d-8694-74291f799d14@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Samedi - Full body + mollets + avant-bras
+DTSTART;TZID=Europe/Paris:20260523T121500
+DTEND;TZID=Europe/Paris:20260523T140000
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20260816T215959Z
+DESCRIPTION:Objectif : full body + spécial mollets + avant-bras.\n1h45 : échauffement 10 min\; mouvement lourd principal 4x6-10\; tirage dos 4x8-12\; poussée pectoraux/épaules 4x8-12\; jambes modéré 3x10-12\; MOLLETS : debout 5x8-12 + assis 5x15-25 + tibial antérieur 3x15-20\; AVANT-BRAS : farmer walk 4x30-45 sec + reverse curl 3x12-15\; mobilité chevilles/poignets.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Samedi - Full body + mollets + avant-bras
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:67a85577-3370-4017-8077-fecc0a2903e9@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Samedi - récupération personnelle
+DTSTART;TZID=Europe/Paris:20260523T140000
+DTEND;TZID=Europe/Paris:20260523T144500
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20260816T215959Z
+DESCRIPTION:Douche\, repas et récupération.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Samedi - récupération personnelle
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e472d02a-0ad5-4afd-9673-15cf7fec0efb@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Samedi - temps libre
+DTSTART;TZID=Europe/Paris:20260523T144500
+DTEND;TZID=Europe/Paris:20260523T180000
+RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20260816T215959Z
+DESCRIPTION:Temps libre\, sorties\, obligations personnelles ou repos.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Samedi - temps libre
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ab7c542f-606f-4438-a8e2-9e87a077c6d5@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Dimanche - réveil et routine matinale
+DTSTART;TZID=Europe/Paris:20260524T100000
+DTEND;TZID=Europe/Paris:20260524T103000
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260816T215959Z
+DESCRIPTION:Réveil à 10h00\, hydratation\, petit-déjeuner\, respiration.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Dimanche - réveil et routine matinale
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:70e18939-30f3-40d2-9c47-c4283080d994@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Dimanche - récupération active
+DTSTART;TZID=Europe/Paris:20260524T104500
+DTEND;TZID=Europe/Paris:20260524T113000
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260816T215959Z
+DESCRIPTION:Marche\, mobilité\, étirements. Focus chevilles\, hanches\, ischios\, mollets\, poignets. Pas de musculation lourde.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Dimanche - récupération active
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:84b13df1-2afa-440f-b3b3-4cf57d2568a9@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Dimanche - bilan physique
+DTSTART;TZID=Europe/Paris:20260524T113000
+DTEND;TZID=Europe/Paris:20260524T121500
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260816T215959Z
+DESCRIPTION:Suivi hebdomadaire : poids\, tour de cuisse\, tour de mollet\, tour avant-bras\, charges\, sommeil\, douleurs\, énergie.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Dimanche - bilan physique
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eaf0a221-1cd8-46c1-81ea-dab0ae98e693@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Dimanche - planification stratégique
+DTSTART;TZID=Europe/Paris:20260524T173000
+DTEND;TZID=Europe/Paris:20260524T181500
+RRULE:FREQ=WEEKLY;BYDAY=SU;UNTIL=20260816T215959Z
+DESCRIPTION:Préparer la semaine : objectifs\, séances\, nutrition\, priorités professionnelles.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Dimanche - planification stratégique
+TRIGGER:-PT10M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2183088b-b1aa-4ce4-91af-9179de79b166@copilot-ayoub-journee-complete-v2
+DTSTAMP:20260519T065237Z
+SUMMARY:Suivi mensuel - bilan morphologique
+DTSTART;TZID=Europe/Paris:20260601T190000
+DTEND;TZID=Europe/Paris:20260601T194500
+RRULE:FREQ=MONTHLY;UNTIL=20260816T215959Z
+DESCRIPTION:Bilan mensuel complet.\n1) Mesures : poids moyen 7 jours\, tour de cuisse droite/gauche\, tour de mollet droit/gauche\, tour d’avant-bras droit/gauche\, tour de taille.\n2) Photos : face\, profil\, dos\, jambes/mollets\, même lumière.\n3) Performance : squat/presse\, soulevé roumain\, hip thrust\, mollets debout/assis\, farmer walk.\n4) Analyse : énergie\, sommeil\, douleurs\, régularité\, alimentation.\n5) Ajustement : si poids stable 2 semaines\, ajouter +150 à +250 kcal/jour\; si fatigue élevée\, réduire 20% du volume pendant 1 semaine.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Rappel - Suivi mensuel - bilan morphologique
+TRIGGER:-PT60M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
